@@ -5,6 +5,7 @@ export default authMiddleware({
     "/",
     "/events/:id",
     "/api/webhooks/clerk(.*)",
+    "/api/webhooks/clerk",
     "/api/uploadthing",
   ],
   ignoredRoutes: [
